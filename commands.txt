@@ -1,0 +1,9 @@
+to run the labelme2yolo.py file to convert one single json file
+python labelme2yolo.py --json_dir /home/vks/Documents/uni/bio/github/hens_tracking/data/label/annotation_0/ --json_name frame0.json
+
+to run the labelme2yolo.py file to convert all files and split it
+python labelme2yolo.py --json_dir /home/vks/Documents/uni/bio/github/hens_tracking/data/label/all_json_file/ --val_size 0.1
+
+to run the detection
+python detect.py --weights best.pt --conf 0.5 --img-size 640 --source inference/images/frame9.png
+
