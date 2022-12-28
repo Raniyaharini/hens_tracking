@@ -42,11 +42,16 @@ python detect.py --weights best.pt --conf 0.5 --img-size 640 --inference frame9.
 <img src="runs/detect/exp/frame9.png">
 
 
-
-
-
-
-
 ## To do
 * details of the dataset, like from where it got, ...
-* 
+* find out how many frames are required to trained decent model, so it can work in real time.
+* annotatate the images and enhance the quality
+* train the YOLOv7-E6E architecture
+* understand the evaluation metrics 
+* go through the code and understand it clearly about parameter and hyperparameter.
+* find out why bbox is not plotting on local system
+* look out for logging system
+* understand the YOLO architecture, read the paper, blog or any other references.
+
+
+For more info, check out the [wiki](https://github.com/vishas97/hens_tracking/wiki) page
