@@ -39,7 +39,7 @@ Copy the *best.pt* weight file from the **hens_tracking/runs/train/yolov7-custom
 python detect.py --weights best.pt --conf 0.5 --img-size 640 --inference frame9.png --view-img --no-trace
 ```
 #### Output
-<img src="runs/detect/exp/frame9.png>
+<img src="runs/detect/exp/frame9.png">
 
 
 
